@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <title>AI Dessert Recipe Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>AI Dessert Recipe Generator 👩🏼‍🍳</h1>
+      </header>
+      <main>
+        <div class="form-container">
+          <form id="recipe-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the recipe name"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+
+          <div class="hint">
+            i.e. chocolate mousse, crème brûlée, apple pie, strawberry cake etc.
+          </div>
+        </div>
+        <div class="recipe hidden" id="recipe"></div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Stella5791" target="_blank">Stella Bullo</a
+        >; it is
+        <a
+          href="https://github.com/Stella5791/AI-recipe-generator"
+          target="_blank"
+          >open sourced on GitHub</a
+        >
+        and hosted on
+        <a
+          href="https://app.netlify.com/sites/ai-quick-dessert-recipe-generator-ste/overview"
+          target="_blank"
+          >Netlify</a
+        >
+        <p>
+          Picture by
+          <a
+            href="https://unsplash.com/@brookelark"
+            target="_blank"
+            class="image"
+          >
+            Brooke Lark</a
+          >
+        </p>
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
