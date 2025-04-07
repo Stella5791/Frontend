@@ -1,0 +1,27 @@
+.Results {
+  margin: 20px 0;
+  background-color: #fcf7f3;
+  border-radius: 5px;
+}
+.Results h2 {
+  font-size: 60px;
+  font-weight: bold;
+  padding-top: 50px;
+  margin-bottom: 0;
+}
+.Results section {
+  margin-left: 50px;
+  padding-right: 40px;
+}
+.Results hr {
+  height: 3px;
+}
+
+.Results .word {
+  padding-bottom: 30px;
+}
+
+.Results .meaning {
+  padding-bottom: 10px;
+  padding-left: 30px;
+}

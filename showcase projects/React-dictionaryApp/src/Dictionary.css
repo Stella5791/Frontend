@@ -1,0 +1,40 @@
+.Dictionary .header {
+  background-image: url("./vintagedictionaryclearfieldheader2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  border-radius: 5px;
+}
+
+.Dictionary .form {
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+  background-color: rgba(237, 210, 187, 0.8);
+  border-radius: 6px;
+}
+
+.Dictionary h1 {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+.Dictionary input {
+  width: 100%;
+  line-height: 3;
+  padding: 6px 10 px;
+  color: #978778;
+  border-radius: 6px;
+  border: 1px solid #978778;
+  background-color: #fcf7f3;
+}
+
+.Dictionary .hint {
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+  color: #978778;
+  font-style: italic;
+  font-weight: bold;
+}

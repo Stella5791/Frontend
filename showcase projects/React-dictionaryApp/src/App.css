@@ -1,0 +1,21 @@
+.App {
+  margin: 0;
+  padding: 0;
+  max-width: 1400px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.App .container {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-right: -11px;
+}
+.App header {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.App-footer {
+  margin: 20px;
+  text-align: center;
+}
