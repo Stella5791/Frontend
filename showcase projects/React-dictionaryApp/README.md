@@ -1,3 +1,48 @@
+# 📖🔍 React Dictionary App
+
+A sleek and responsive dictionary app built with React. This project allows users to search for word definitions and see related imagery and phonetics in real time, using an external dictionary API.
+
+## 🚀 Overview
+
+This project is part of my front-end portfolio and showcases how to build a multi-component React app with real-time API integration, user input handling, and clean, responsive design. It fetches data from the [Dictionary API](https://dictionaryapi.dev/) and displays definitions, pronunciation, and example usage—making it a lightweight and elegant reference tool.
+
+## 🌐 Live Demo
+
+👉 [Check it out here](https://www.shecodes.io/cohorts/2173/projects/2452848?_gl=1*3efxlm*_gcl_au*NDE4MDk4MDEyLjE3NDE3Mjg4ODYuMTQ4MTU5NzYxMS4xNzQyNDExODI4LjE3NDI0MTE4Mjg)
+
+## 🛠️ Tech Stack
+
+- React  
+- HTML5  
+- CSS3  
+- Dictionary API  
+- Axios
+
+## ✨ Features
+
+- Search for any English word  
+- Displays multiple definitions, part of speech, and phonetics  
+- Shows example sentences (when available)  
+- Includes relevant image thumbnails  
+- Responsive layout for desktop and mobile
+
+## 🔧 How It Works
+
+1. User types a word in the search field and hits "Search"  
+2. React app sends an API request using Axios  
+3. Definitions, pronunciation, and images are fetched and displayed dynamically  
+4. Modular components manage layout, logic, and styling
+
+> This project demonstrates fundamental React skills like state management, props, useEffect hooks, and working with external APIs.
+
+## 📁 Project Structure
+
+----------------------------------
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
