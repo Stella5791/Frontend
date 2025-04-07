@@ -1,0 +1,12 @@
+.App {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  padding-top: 40px;
+}
+
+.App footer {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 11px;
+  margin: 10px 0;
+  text-align: center;
+}

@@ -1,0 +1,56 @@
+.Weather {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  color: #475053;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.2);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.Weather form {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.WeatherInfo .top-container {
+  margin-left: 15px;
+}
+.Weather .place {
+  text-transform: uppercase;
+}
+
+.WeatherInfo .date {
+  font-size: 14px;
+  margin-top: 20px;
+}
+.WeatherInfo p {
+  font-size: 14px;
+}
+
+.WeatherInfo .capitalize-first-letter::first-letter {
+  text-transform: uppercase;
+}
+
+.Weather .temperature-section {
+  margin-top: 30px;
+}
+
+.Weather .icon {
+  margin-top: 15px;
+  margin-right: 5px;
+}
+.Weather .temperature {
+  font-size: 70px;
+}
+.Weather .unit {
+  position: relative;
+  font-size: 25px;
+  margin-top: 18px;
+}
+.WeatherInfo .temperature .units a {
+  text-decoration-line: none;
+}
+
+.WeatherInfo .temperature .units a:hover {
+  text-decoration: none;
+}
