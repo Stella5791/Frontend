@@ -1,3 +1,88 @@
+# ⛅🌤️ React Weather App
+
+A responsive weather application built with React. It allows users to search for the current weather in any city and displays up-to-date weather details, including temperature, conditions, wind, and humidity, using the OpenWeatherMap API.
+
+## 🚀 Overview
+
+This project demonstrates real-time API data fetching, form handling, and dynamic component rendering in React. It's cleanly designed for both mobile and desktop devices, and serves as a practical example of how to integrate external APIs into a modern React app.
+
+## 🌐 Live Demo
+
+👉 [Check it out here](https://www.shecodes.io/cohorts/2067/projects/2424775?_gl=1*g113uw*_gcl_au*NDE4MDk4MDEyLjE3NDE3Mjg4ODYuMTQ4MTU5NzYxMS4xNzQyNDExODI4LjE3NDI0MTE4Mjg)
+
+## 🛠️ Tech Stack
+
+- React  
+- HTML5  
+- CSS3  
+- Axios  
+- OpenWeatherMap API
+
+## ✨ Features
+
+- Search for any city and view current weather  
+- Displays temperature, weather condition, wind speed, humidity  
+- Dynamic API integration using Axios  
+- Responsive layout  
+- Modular React components  
+
+## 🔧 How It Works
+
+1. User enters a city name in the search field  
+2. The app makes a call to the OpenWeatherMap API  
+3. Weather data is fetched and passed into reusable React components  
+4. UI updates to display temperature, weather icon, and other info
+
+
+
+
+
+-------------------
+
+# 📖🔍 React Dictionary App
+
+A sleek and responsive dictionary app built with React. This project allows users to search for word definitions and see related imagery and phonetics in real time, using an external dictionary API.
+
+## 🚀 Overview
+
+This project is part of my front-end portfolio and showcases how to build a multi-component React app with real-time API integration, user input handling, and clean, responsive design. It fetches data from the [Dictionary API](https://dictionaryapi.dev/) and displays definitions, pronunciation, and example usage—making it a lightweight and elegant reference tool.
+
+## 🌐 Live Demo
+
+👉 [Check it out here](https://www.shecodes.io/cohorts/2173/projects/2452848?_gl=1*3efxlm*_gcl_au*NDE4MDk4MDEyLjE3NDE3Mjg4ODYuMTQ4MTU5NzYxMS4xNzQyNDExODI4LjE3NDI0MTE4Mjg)
+
+## 🛠️ Tech Stack
+
+- React  
+- HTML5  
+- CSS3  
+- Dictionary API  
+- Axios
+
+## ✨ Features
+
+- Search for any English word  
+- Displays multiple definitions, part of speech, and phonetics  
+- Shows example sentences (when available)  
+- Includes relevant image thumbnails  
+- Responsive layout for desktop and mobile
+
+## 🔧 How It Works
+
+1. User types a word in the search field and hits "Search"  
+2. React app sends an API request using Axios  
+3. Definitions, pronunciation, and images are fetched and displayed dynamically  
+4. Modular components manage layout, logic, and styling
+
+> This project demonstrates fundamental React skills like state management, props, useEffect hooks, and working with external APIs.
+
+
+----------------------------------
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
