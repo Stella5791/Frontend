@@ -33,10 +33,12 @@ Navigate to the Project Directory:
 bash
 Copy
 Edit
-cd Frontend/bootcamp\ projects/[project-folder-name]
+cd Frontend/bootcamp\ projects/Web-development-Project
+
 Open the HTML File:
 
 Open the main .html file in your preferred web browser to view the project.
+
 
 🌟 Features
 Responsive Design: Ensuring optimal viewing experiences across various devices and screen sizes.​
@@ -45,8 +47,6 @@ Interactive Elements: Incorporating JavaScript functionalities for enhanced user
 
 Clean and Organized Code: Following best practices for readability and maintainability.​
 
-📸 Screenshots
-(Include screenshots of each project here to provide visual insights.)
 
 📚 Learning Outcomes
 Through these projects, I gained proficiency in:
@@ -59,8 +59,10 @@ Enhancing web pages with interactive JavaScript components.​
 
 Managing code versions and collaborating using Git and GitHub.​
 
+
 🤝 Contributing
 While these projects were developed as part of my bootcamp journey, I welcome suggestions and improvements. Feel free to fork the repository, open issues, or submit pull requests.​
+
 
 📄 License
 This repository is licensed under the MIT License. You are free to use, modify, and distribute the code with proper attribution.
