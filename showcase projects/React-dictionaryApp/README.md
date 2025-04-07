@@ -35,7 +35,6 @@ This project is part of my front-end portfolio and showcases how to build a mult
 
 > This project demonstrates fundamental React skills like state management, props, useEffect hooks, and working with external APIs.
 
-## 📁 Project Structure
 
 ----------------------------------
 
