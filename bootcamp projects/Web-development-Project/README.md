@@ -4,9 +4,7 @@ Welcome to **Coco & Pal**, a personal, responsive web page dedicated to my two b
 
 ## 🌐 Live Demo
 
-👉 [View the project live here](https://stellabullo.com/)  
-*(Replace with the exact URL if different)*
-
+👉 [[View the project live here](https://www.shecodes.io/cohorts/1363/projects/1800127?_gl=1*1y2yhsf*_gcl_au*NDE4MDk4MDEyLjE3NDE3Mjg4ODYuMTQ4MTU5NzYxMS4xNzQyNDExODI4LjE3NDI0MTE4Mjg.
 ---
 
 ## 📌 Features
