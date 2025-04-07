@@ -1,3 +1,44 @@
+# ⛅🌤️ React Weather App
+
+A responsive weather application built with React. It allows users to search for the current weather in any city and displays up-to-date weather details, including temperature, conditions, wind, and humidity, using the OpenWeatherMap API.
+
+## 🚀 Overview
+
+This project demonstrates real-time API data fetching, form handling, and dynamic component rendering in React. It's cleanly designed for both mobile and desktop devices, and serves as a practical example of how to integrate external APIs into a modern React app.
+
+## 🌐 Live Demo
+
+👉 [Check it out here](https://www.shecodes.io/cohorts/2067/projects/2424775?_gl=1*g113uw*_gcl_au*NDE4MDk4MDEyLjE3NDE3Mjg4ODYuMTQ4MTU5NzYxMS4xNzQyNDExODI4LjE3NDI0MTE4Mjg)
+
+## 🛠️ Tech Stack
+
+- React  
+- HTML5  
+- CSS3  
+- Axios  
+- OpenWeatherMap API
+
+## ✨ Features
+
+- Search for any city and view current weather  
+- Displays temperature, weather condition, wind speed, humidity  
+- Dynamic API integration using Axios  
+- Responsive layout  
+- Modular React components  
+
+## 🔧 How It Works
+
+1. User enters a city name in the search field  
+2. The app makes a call to the OpenWeatherMap API  
+3. Weather data is fetched and passed into reusable React components  
+4. UI updates to display temperature, weather icon, and other info
+
+
+
+
+
+-------------------
+
 # 📖🔍 React Dictionary App
 
 A sleek and responsive dictionary app built with React. This project allows users to search for word definitions and see related imagery and phonetics in real time, using an external dictionary API.
