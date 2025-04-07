@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coco&Pal</title>
+    <style>
+      body {
+        background: linear-gradient(
+          109.6deg,
+          rgb(17, 151, 147) 11.2%,
+          rgb(154, 214, 212) 55.4%,
+          rgb(255, 233, 171) 100.2%
+        );
+        font-family: sans-serif;
+      }
+      h1 {
+        text-align: center;
+        font-variant: small-caps;
+      }
+      h2 {
+        text-align: center;
+      }
+      img {
+        width: 100%;
+      }
+      p {
+        line-height: 1.5;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 15;
+        margin-top: 20px;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid turquoise;
+        background: white;
+        border-radius: 20px;
+        padding: 10px;
+        transition: all 150ms ease-out;
+        font-size: 15px;
+      }
+      button:hover {
+        background: rgb(195, 251, 244);
+        cursor: pointer;
+        color: black;
+      }
+      .container {
+        max-width: 600px;
+        background: white;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 20px;
+        border-radius: 10px;
+      }
+      .grid1 {
+        display: grid;
+        margin: 20 0;
+        width: 600px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        margin-bottom: 20px;
+        padding-top: 30px;
+      }
+      .grid1 img {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        transition: all 150ms ease-in-out;
+      }
+      .Pal-intro-pic:hover {
+        transform: scale(1.5) rotate(-20deg);
+      }
+      .Coco-intro-pic:hover {
+        transform: scale(1.5) rotate(20deg);
+      }
+      .grid2 {
+        display: grid;
+        margin: 15 0;
+        width: 600px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 15px;
+        padding-top: 30px;
+      }
+      .grid2 img {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        transition: all 150ms ease-in-out;
+      }
+      .grid2 img:hover {
+        transform: scale(1.2);
+        filter: contrast(80%);
+      }
+      .get-involved {
+        background: turquoise;
+        text-transform: uppercase;
+        padding: 15px 20px;
+        border-radius: 30px;
+        font-weight: bolder;
+        font-size: 18px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+      }
+      .read-more {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        color: #006769;
+        text-decoration: none;
+        padding-top: 20px;
+        font-size: 20px;
+      }
+      .theme-button {
+        font-size: 15px;
+        background: black;
+        color: white;
+        padding: 10px;
+      }
+      .theme-button :hover {
+        color: black;
+        background: white;
+      }
+      .dark {
+        background: linear-gradient(
+          109.6deg,
+          rgba(0, 0, 0, 0.93) 11.2%,
+          rgb(63, 61, 61) 78.9%
+        );
+        color: white;
+      }
+      .dark .container {
+        background: rgba(255, 255, 255, 0.1);
+      }
+      .dark a {
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="theme-button">Change theme</button>
+    <div class="container">
+      <h1>😻 My Boys</h1>
+      <h2>Pal 🐕 & Coco🐈‍⬛</h2>
+      <div class="grid1">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/117/original/Picture_1.png?1691846590"
+          alt="Pal-picture"
+          class="Pal-intro-pic"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/118/original/Picture_2.png?1691846602"
+          alt="Coco-picture"
+          class="Coco-intro-pic"
+        />
+      </div>
+      <div class="grid2">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/092/438/original/Pal3.png?1691371347"
+          alt="Pal-walks"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/092/439/original/Pal4.png?1691371363"
+          alt="Pal-drive"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/092/434/original/Coco3.png?1691371078"
+          alt="Coco-bed"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/092/443/original/Coco4.png?1691375433"
+          alt="Coco-bed2"
+        />
+      </div>
+      <br />
+      <p>
+        I love animals and my favourite activity is spending time with my cat,
+        Coco, and my dog, Pal. Though, they are not as much of my pets as I am
+        their human. <br />
+        I enjoy going for long exploratory walks with Pal, who likes to bring
+        his friends along. As soon as we go out, the neighbouring dogs start
+        howling until they are let out to join us so I end up walking the
+        neightbours' dogs as well. It's great fun! Pal also enjoys being my
+        co-pilot when we go for drives. We live in a pretty rural area so he's
+        allowed in the front seat "giving directions". <br />
+        Coco is less of an activity companion and more of a rest mate. Basically
+        he spends his time asleep near me, or on me. Purring away. <br />
+        Coco came to my life when he was a tiny baby and he grew up looking
+        after me when I was very unwell and had to be on bed rest for a few
+        months. He's the best nurse I could asked for. Pal just turned up one
+        day at our house and decided he was going to stay, and, quite frankly,
+        who could say no to that face? <br />
+        We've all lived happily ever since and I can't imagine my life without
+        them. They are such a big part of my life and have enriched it so much
+        that I want people to know how great sharing a life with an animal can
+        be so I am now involved in a local charity organization helping rescue
+        and rehome animals in our town.
+
+        <br />
+        <br />
+        <a
+          href="https://www.facebook.com/people/Adopcion-orejas-sucias-Berrotaran/100066478215090/?paipv=0&eav=AfZoU4_4QFKcaNSAZqLCHyw4K-_fHc-Iw48D0p8ASpVHQ7YoX5uFnTXZjSkj8DwNIWQ&_rdr"
+          target="_blank"
+          class="read-more"
+        >
+          🔗 Read more about <em><strong>Orejas Sucias </strong></em> rescue
+          organisation 🐾</a
+        >
+      </p>
+      <br />
+      <button class="get-involved">
+        Get Involved in helping rescue and rehome animals
+      </button>
+
+      <br />
+      <footer>
+        <tt>
+          Coded by 🐱🐶🫶
+          <a href="https://stellabullo.com/" target="_blank"> Stella Bullo</a>
+          in HTML, CSS and JavaScript
+        </tt>
+      </footer>
+    </div>
+    <script>
+      function getInvolved() {
+        let name = prompt("what is your name?");
+        let email = prompt("What is your email?");
+        alert("Thanks " + name + " ! We'll be in touch with more details soon");
+      }
+      function changeTheme() {
+        let body = document.querySelector("body");
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+      let getInvolvedButton = document.querySelector(".get-involved");
+      getInvolvedButton.addEventListener("click", getInvolved);
+
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
